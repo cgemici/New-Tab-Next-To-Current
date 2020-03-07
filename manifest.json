@@ -1,0 +1,17 @@
+{
+  "name": "Create New Tab Next to Current",
+  "version": "1.0",
+  "description": "Open a new tab next to the current one using a hotkey",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "new-tab-next-to-current": {
+      "suggested_key": {
+        "default": "Alt+X"
+      },
+      "description": "Open a new tab next to the current one"
+    }
+  },
+  "manifest_version": 2
+}
